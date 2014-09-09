@@ -18,7 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+Animatedgifme.find(768)
+#=> "http://i.imgur.com/8kJyPo2.gif"
+
+Animatedgifme.tagged("cat")
+#=> "http://i.imgur.com/UAfxER2.gif"
+
+Animatedgifme.find("cat")
+#=> "http://i.imgur.com/dEd7bFG.gif"
+```
 
 ## Contributing
 
